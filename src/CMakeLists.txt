@@ -7,3 +7,4 @@ add_subdirectory(particle)
 add_subdirectory(physics)
 
 add_executable(ParticleMovement main.cpp)
+target_link_libraries(ParticleMovement PUBLIC Particle ObjectPhysics Helpers)

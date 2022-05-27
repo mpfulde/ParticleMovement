@@ -7,5 +7,5 @@ add_library(Particle STATIC
         Particle.cpp Particle.h
         Coordinate.cpp Coordinate.h ParticleTypeList.h)
 target_include_directories(Particle PUBLIC .)
-target_link_libraries(Particle PUBLIC ObjectPhysics)
+target_link_libraries(Particle PUBLIC ObjectPhysics Helpers)
 target_compile_options(Particle PRIVATE -Wall -Wextra -Werror)
