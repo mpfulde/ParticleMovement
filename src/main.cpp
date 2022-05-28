@@ -1,6 +1,9 @@
-#include <iostream>
+#include "StreamStorage.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+    Helpers::StreamStorage sstorage;
+
+    sstorage.getOut() << "Hello, World!" << std::endl;
     return 0;
 }

@@ -4,7 +4,7 @@ project(ParticleMovement)
 set(CMAKE_CXX_STANDARD 17)
 
 add_library(Helpers STATIC
-        StaticStreamStorage.cpp StaticStreamStorage.h
+        StreamStorage.cpp StreamStorage.h
         )
 target_include_directories(Helpers PUBLIC .)
 target_link_libraries(Helpers PUBLIC )

@@ -3,8 +3,9 @@ project(ParticleMovement)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_subdirectory(helpers)
 add_subdirectory(particle)
 add_subdirectory(physics)
 
 add_executable(ParticleMovement main.cpp)
-target_link_libraries(ParticleMovement PUBLIC Particle ObjectPhysics Helpers)
+target_link_libraries(ParticleMovement PUBLIC Helpers Particle ObjectPhysics )

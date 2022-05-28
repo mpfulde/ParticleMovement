@@ -7,5 +7,5 @@ add_library(ObjectPhysics STATIC
         MovementSystem.cpp MovementSystem.h
         ParticleMovementSystem.cpp ParticleMovementSystem.h)
 target_include_directories(ObjectPhysics PUBLIC .)
-target_link_libraries(ObjectPhysics PUBLIC Particle)
+target_link_libraries(ObjectPhysics PRIVATE Particle)
 target_compile_options(ObjectPhysics PRIVATE -Wall -Wextra -Werror)
