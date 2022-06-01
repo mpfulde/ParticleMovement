@@ -69,7 +69,7 @@ A container containing an X Y value of the same type
 * X is gettable and settable
 * Y is gettable and settable
 
-### [Point]
+### [Point]()
 A point in this context is a Coordinate that has extra data. Points are used in defining paths 
 
 Contains a direction
