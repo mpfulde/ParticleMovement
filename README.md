@@ -64,7 +64,7 @@ important features of a particle:
 * Movement System
 * Path Follower
 
-## [Coordinate](./src/Coordinate.h)
+## [Coordinate](./src/particle/Coordinate.h)
 A container containing an X Y value of the same type 
 * X is gettable and settable
 * Y is gettable and settable
